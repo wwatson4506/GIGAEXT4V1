@@ -12,7 +12,7 @@ You will need:
 - LibPrintf (Use library manager)
 - Arduino_USBHostMbed5 from my GitHub found here: https://github.com/wwatson4506/Arduino_USBHostMbed5
 
-#### UPDATES:
+#### Usage:
 
 You will need a USB drive formatted as ext4 with a volume label to identify the drive. Compile any of the GIGAext4FS examples and upload to the GIGA R1.
 

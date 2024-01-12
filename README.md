@@ -4,7 +4,7 @@ This is the second version of lwext4 adapted for use with the GIGA R1.
 
 This is the start of being able to use lwext4 with the GIGA. This version supports MSD USB drives. It has been tested with Arduino 1.8.19 and Arduino IDE 2.2.1.
 
-##Not sure if more work will be done with this WIP library and is at a "USE AT YOUR OWN RISK" status!!!
+## Not sure if more work will be done with this WIP library and is at a "USE AT YOUR OWN RISK" status!!!
 
 You will need:
 - This repository

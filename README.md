@@ -69,7 +69,7 @@ There is a lot of capability in lwext4 that has not yet been added. Some of it m
  Note: lwext4 only supports four mounted partitions total
        at any one time.
 
-#### TODO: NOT sure att this time.
+#### TODO: NOT sure at this time if ever.
  
  ## WARNING: ext4 MUST be cleanly un-mounted to avoid data loss.
  ##            'umountDrives(sdax or fatx);'

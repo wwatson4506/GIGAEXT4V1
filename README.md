@@ -30,8 +30,10 @@ https://github.com/autoas/as/tree/master/com/as.infrastructure/system/fs
 - ext4Usage.ino This sketch contains information on the general usage of GIGAEXT4 and is similar to LittleFS_Usage and SdFat_Usage.
 - ext4DeviceInfo.ino Gives various stats about a mounted block device and it's ext4 partitions.
 - DirectoryDemo.ino Gives a directory listing for a FAT32 and ext4 drive.
-- CopyfilesUSB.ino Needs a FAT32 formatted USB device and a ext4 formated USB device plugged into a HUB. Demonstrates copying a file
+- GIGAcopyFiles.ino Needs a FAT32 formatted USB device and a ext4 formated USB device plugged into a HUB. Demonstrates copying a file
   to another file on the same drive and also coping it to another drive
+- EXT4benchGIGA.ino Measures write/read speeds for FAT32 and ext4 USB MSD devices. Adapted from Bill Greiman's SdFat library.
+- minimal.ino A minimal sketch that shows how to mount and unmount FAT32 and ext4 USB drives.
 These are the example sketches available so far. They demonstrate alot of LWext4's capabilities on the GIGA.
 
 #### WARNING: Not unmounting an ext4 formatted USB device before removing can cause data loss as information is written back to the drive when unmounted.

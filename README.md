@@ -51,7 +51,7 @@ These are the example sketches available so far. They demonstrate alot of LWext4
 - Volume names (labels) are supported with the ext4 filesystem only. Volume labels for FatFS has
   not been enabled w/o recompiling the Mbed core.
 - There is  a minimal sketch that can be used as template for testing. It tests for a USB device
-  being plugged in and if it is, tries to mount all available partitions. The it waits for user input
+  being plugged in and if it is, tries to mount all available partitions. Then it waits for user input
   before unmounting al mounted partitions.
   
 #### TODO:

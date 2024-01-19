@@ -106,7 +106,7 @@ int getMPid(const char * volName) {
     if(strcmp((const char *)str,mpID[i]) == 0) return i;
   }
   return -1;
-};
+}
 
 // How much space currently used on a volume.
 uint64_t usedSize(const char * ld) {
